@@ -1,0 +1,8 @@
+.env
+
+# dotenv environment variables file
+.env.test
+.env.production
+.env.local
+
+__pycache__/
