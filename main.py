@@ -153,7 +153,7 @@ def handle_secure_payload_message(msg):
 
 def on_connect(client, userdata, flags, rc):
     if rc == 0:
-        logger.info("Connected to MQTT broker")
+        logger.info("Connected to MQTT brokerr")
 
         for topic in TOPICS:
             client.subscribe(topic)
